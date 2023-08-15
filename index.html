@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="icon" href="favicon.svg" />
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <div class="logo"><img src="logo.png" alt="The company logo" height=40px>
+            <p>Explore beyond boundaries: Your journey, our expertise.</p></div>
+            <div class="placeholder"></div>
+        </div>
+        <div class="text">
+            <div class="title">Create Account</div>
+            <form class="form">
+                <fieldset>
+                    <legend>Personal details</legend>
+                    <ul>
+                        <li>
+                            <label for="first_name">First name *</label>
+                            <input type="text" id="first_name" name="first_name" required>
+                        </li>
+                        <li>
+                            <label for="last_name">Last name *</label>
+                            <input type="text" id="last_name" name="last_name" required>
+                        </li>
+                        <li>
+                            <label for="email">Email address *</label>
+                            <input type="email" id="email" name="email">
+                        </li>
+                        <li>
+                            <label for="phone_number">Phone number</label>
+                            <input type="number" id="phone_number" name="phone_number">
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset class="password_details">
+                    <legend>Password details</legend>
+                    <ul>
+                        <li>
+                            <label for="password">Password *</label>
+                            <input type="password" id="password" name="password" required>
+                        </li>
+                        <li>
+                            <label for="confirm_password">Confirm password *</label>
+                            <input type="password" id="confirm_password" name="confirm_password" required>
+                        </li>
+                    </ul>
+                </fieldset>
+                <button id="submit_button">Create Account</button>
+            </form>
+            <div  class="log_in">Already have an account? <a href="">Log in</a></div>
+        </div>
+    </div>
+    <footer><p>by Lizzy Pedley as part of The Odin Project <br>Images by <a href="https://www.freepik.com/free-vector/beach-sea-top-view-summer-concept_29874911.htm#&position=0&from_view=undefined">gstudioimagen1</a> and <a href="https://www.freepik.com/free-vector/people-floating-colorful-inflatable-toys-different-shapes-top-view-flat-set-blue-background-isolated-vector-illustration_37420392.htm#&position=4&from_view=undefined">macrovector</a> on Freepik</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
